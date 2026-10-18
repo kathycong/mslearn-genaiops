@@ -16,6 +16,7 @@ param resourceGroupName string = 'rg-${environmentName}'
 @minLength(1)
 @description('Primary location for all resources')
 @allowed([
+  'australiasoutheast'
   'australiaeast'
   'brazilsouth'
   'canadacentral'
